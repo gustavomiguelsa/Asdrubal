@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exames de LUPA</string>
+    <string name="title">Bem-Vindo</string>
+    <string name="button_send">Send</string>
+</resources>

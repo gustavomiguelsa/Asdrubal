@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/splashscreentitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lições do Asdrúbal"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_lupa"
+        android:layout_width="253dp"
+        android:layout_height="65dp"
+        android:background = "@drawable/roundedbutton"
+        android:layout_marginTop="44dp"
+        android:text="LUPA"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_icnf"
+        android:layout_width="253dp"
+        android:layout_height="65dp"
+        android:background = "@drawable/roundedbutton_green"
+        android:layout_marginTop="50dp"
+        android:text="Carta de Caçador"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="bottom|center_horizontal"
+        app:srcCompat="@drawable/front"
+        android:contentDescription="imagem"
+        />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:text="© Bolachas 2021"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
